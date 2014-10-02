@@ -22,7 +22,7 @@ npm install tree-math
     tree.setPath(x,[3,'red','bulls'], 5);
     tree.getPath(x,[3,'red','bulls']);
     tree.incrementPath(x,[3,'red','bulls'], 1);
-    tree.find(x,function(path,val){console.log(path,'->',val)}, {maxdepth:4, prefix:['y']});
+    tree.find(x,function(path,val){console.log(path,'->',val)});
 
 
 
