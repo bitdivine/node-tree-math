@@ -23,6 +23,7 @@ npm install tree-math
     tree.getPath(x,[3,'red','bulls']);
     tree.incrementPath(x,[3,'red','bulls'], 1);
     tree.find(x,function(path,val){console.log(path,'->',val)});
+    tree.ksort(x)
 
 
 
