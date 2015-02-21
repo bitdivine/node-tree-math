@@ -4,7 +4,8 @@
   "description": "Arithmetic on trees made of js dictionaries (objects).",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run lint && echo OK",
+    "test": "npm run lint && npm run test-known-values && echo OK",
+    "test-known-values": "node test/findem-test.js compare",
     "lint": "find lib | grep -E '.js$' | xargs ./node_modules/.bin/jshint"
   },
   "repository": {
