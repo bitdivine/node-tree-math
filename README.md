@@ -26,4 +26,6 @@ npm install tree-math
     tree.ksort(x)
 
 
+[![Build Status](https://travis-ci.org/bitdivine/node-tree-math.svg?branch=master)](https://travis-ci.org/bitdivine/node-tree-math)
+
 
