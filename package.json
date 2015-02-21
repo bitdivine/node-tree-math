@@ -1,17 +1,20 @@
-{ "name": "tree-math"
-, "version": "0.0.8"
-, "description": "Arithmetic on trees made of js dictionaries (objects)."
-, "main": "lib/index.js"
-, "scripts":
-  { "test": "npm run lint && echo OK"
-  , "lint": "find lib | grep -E '.js$' | xargs jshint"
-  }
-, "repository":
-  { "type": "git"
-  , "url": "https://github.com/bitdivine/node-tree-math.git"
-  }
-, "author": "Bitdivine"
-, "license": "BSD"
-, "dependencies": {
+{
+  "name": "tree-math",
+  "version": "0.0.8",
+  "description": "Arithmetic on trees made of js dictionaries (objects).",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && echo OK",
+    "lint": "find lib | grep -E '.js$' | xargs ./node_modules/.bin/jshint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitdivine/node-tree-math.git"
+  },
+  "author": "Bitdivine",
+  "license": "BSD",
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.6.0"
   }
 }
