@@ -1,12 +1,13 @@
 {
   "name": "tree-math",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Arithmetic on trees made of js dictionaries (objects).",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && npm run test-known-values && echo OK",
     "test-known-values": "node test/findem-test.js compare",
-    "lint": "find lib | grep -E '.js$' | xargs ./node_modules/.bin/jshint"
+    "lint": "find lib | grep -E '.js$' | xargs ./node_modules/.bin/jshint",
+    "browserify": "./build.sh"
   },
   "repository": {
     "type": "git",
