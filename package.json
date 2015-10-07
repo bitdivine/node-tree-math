@@ -1,6 +1,6 @@
 {
   "name": "tree-math",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Arithmetic on trees made of js dictionaries (objects).",
   "main": "lib/index.js",
   "scripts": {
