@@ -27,5 +27,3 @@ npm install tree-math
 
 
 [![Build Status](https://travis-ci.org/bitdivine/node-tree-math.svg?branch=master)](https://travis-ci.org/bitdivine/node-tree-math)
-
-
